@@ -14,7 +14,7 @@ public class MazeRunner {
 	Stack<Block<Integer, Integer>> path;
 
 	public MazeRunner(Maze maze) {
-		this.maze = maze;
+		this.maze = maze; //not copying maze instance
 		this.path = new Stack<Block<Integer, Integer>>();
 	}
 
@@ -80,7 +80,7 @@ public class MazeRunner {
 	 * is on the top (the Exit). to create a user-friendly output, this function
 	 * reverses the steps so that it's from Entrance to Exit
 	 * 
-	 * @return solution to the maze
+	 * @return stringified reverse stack of path
 	 */
 	private String pathToString() {
 		StringBuilder sb = new StringBuilder();

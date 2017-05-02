@@ -9,8 +9,8 @@ package zw.interview.maze;
 
 public class Block<X, Y> {
 
-	public final Integer x;
-	public final Integer y;
+	public final Integer x; // row position
+	public final Integer y; // column position
 
 	public Block(Integer x, Integer y) {
 		this.x = x;
