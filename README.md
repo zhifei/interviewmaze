@@ -12,4 +12,4 @@ The solution consists of 4 classes.
    <br />
   MazeRunner.java - it uses "follow the wall" technique to traverse the maze and generates the path. <br />
    <br />
-  Block.java - it is a Tuple utility class to represent x and y coordinates for a given block in the maze. <br />
+  Block.java - it is a Tuple utility class to represent row position and column position for a given block in the maze. <br />
